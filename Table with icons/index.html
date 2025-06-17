@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="search-section">
+                <div class="search-box">
+                    <span class="search-icon">🔍</span>
+                    <input type="text" placeholder="Search Keyword">
+                </div>
+                <button
+                    style="background: #2196F3; color: white; border: none; padding: 10px 15px; border-radius: 4px; cursor: pointer;">|||</button>
+            </div>
+
+            <div class="filter-section">
+                <select class="filter-dropdown">
+                    <option>📦 -- Category --</option>
+                    <option>Boots</option>
+                    <option>Shoes</option>
+                </select>
+
+                <select class="filter-dropdown">
+                    <option>📋 -- Stock --</option>
+                    <option>In Stock</option>
+                    <option>Out of Stock</option>
+                </select>
+
+                <input type="text" class="price-input" placeholder="$ Price">
+
+                <button class="add-to-cart-btn">🛒 Add To Cart Products 0 Items</button>
+
+                <div class="select-all">
+                    <label>Select All</label>
+                    <input type="checkbox">
+                </div>
+            </div>
+        </div>
+
+        <div class="table-container">
+            <table>
+                <thead class="table-header">
+                    <tr>
+                        <th>Check</th>
+                        <th>Thumbnails</th>
+                        <th>Product Title ↕</th>
+                        <th>Category</th>
+                        <th>Stock ↕</th>
+                        <th>Price ↕</th>
+                        <th>Quantity</th>
+                        <th>Action</th>
+                        <th>Quick View</th>
+                        <th>Sku</th>
+                        <th>Rating</th>
+                        <th>Wishlist & Compare</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="checkbox" checked></td>
+                        <td><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjYwIiBoZWlnaHQ9IjYwIiBmaWxsPSIjRjVGNUY1Ii8+CjxwYXRoIGQ9Ik0yMCAyMEg0MFY0MEgyMFYyMFoiIGZpbGw9IiNEREQiLz4KPC9zdmc+"
+                                alt="Boot" class="product-image"></td>
+                        <td>
+                            <div class="product-info">Boots</div>
+                            <div class="product-code">BU1171</div>
+                        </td>
+                        <td>Boots</td>
+                        <td><span class="stock-status in-stock">In Stock</span></td>
+                        <td class="price">$115.000</td>
+                        <td>
+                            <div class="quantity-control">
+                                <button class="quantity-btn">-</button>
+                                <span class="quantity-display">0</span>
+                                <button class="quantity-btn">+</button>
+                            </div>
+                        </td>
+                        <td>
+                            <button class="action-btn">🛒</button>
+                        </td>
+                        <td>
+                            <button class="action-btn view-btn">👁</button>
+                        </td>
+                        <td class="sku">112</td>
+                        <td>
+                            <div class="rating">
+                                <span>5</span>
+                                <span class="star">⭐</span>
+                            </div>
+                        </td>
+                        <td>
+                            <button class="action-btn wishlist-btn">❤</button>
+                            <button class="action-btn">⚖</button>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="checkbox" checked></td>
+                        <td><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjYwIiBoZWlnaHQ9IjYwIiBmaWxsPSIjRjVGNUY1Ii8+CjxwYXRoIGQ9Ik0yMCAyMEg0MFY0MEgyMFYyMFoiIGZpbGw9IiNDQ0MiLz4KPC9zdmc+"
+                                alt="Boot" class="product-image"></td>
+                        <td>
+                            <div class="product-info">Boots</div>
+                            <div class="product-code">BU1171</div>
+                        </td>
+                        <td>Boots</td>
+                        <td><span class="stock-status in-stock">In Stock</span></td>
+                        <td class="price">$115.000</td>
+                        <td>
+                            <div class="quantity-control">
+                                <button class="quantity-btn">-</button>
+                                <span class="quantity-display">0</span>
+                                <button class="quantity-btn">+</button>
+                            </div>
+                        </td>
+                        <td>
+                            <button class="action-btn">🛒</button>
+                        </td>
+                        <td>
+                            <button class="action-btn view-btn">👁</button>
+                        </td>
+                        <td class="sku">112</td>
+                        <td>
+                            <div class="rating">
+                                <span>5</span>
+                                <span class="star">⭐</span>
+                            </div>
+                        </td>
+                        <td>
+                            <button class="action-btn wishlist-btn">❤</button>
+                            <button class="action-btn">⚖</button>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="checkbox" checked></td>
+                        <td><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjYwIiBoZWlnaHQ9IjYwIiBmaWxsPSIjRjVGNUY1Ii8+CjxwYXRoIGQ9Ik0yMCAyMEg0MFY0MEgyMFYyMFoiIGZpbGw9IiNBQUEiLz4KPC9zdmc+"
+                                alt="Boot" class="product-image"></td>
+                        <td>
+                            <div class="product-info">Boots</div>
+                            <div class="product-code">BU1171</div>
+                        </td>
+                        <td>Boots</td>
+                        <td><span class="stock-status in-stock">In Stock</span></td>
+                        <td class="price">$115.000</td>
+                        <td>
+                            <div class="quantity-control">
+                                <button class="quantity-btn">-</button>
+                                <span class="quantity-display">0</span>
+                                <button class="quantity-btn">+</button>
+                            </div>
+                        </td>
+                        <td>
+                            <button class="action-btn">🛒</button>
+                        </td>
+                        <td>
+                            <button class="action-btn view-btn">👁</button>
+                        </td>
+                        <td class="sku">112</td>
+                        <td>
+                            <div class="rating">
+                                <span>5</span>
+                                <span class="star">⭐</span>
+                            </div>
+                        </td>
+                        <td>
+                            <button class="action-btn wishlist-btn">❤</button>
+                            <button class="action-btn">⚖</button>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="checkbox" checked></td>
+                        <td><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjYwIiBoZWlnaHQ9IjYwIiBmaWxsPSIjRjVGNUY1Ii8+CjxwYXRoIGQ9Ik0yMCAyMEg0MFY0MEgyMFYyMFoiIGZpbGw9IiM5OTkiLz4KPC9zdmc+"
+                                alt="Boot" class="product-image"></td>
+                        <td>
+                            <div class="product-info">Boots</div>
+                            <div class="product-code">BU1171</div>
+                        </td>
+                        <td>Boots</td>
+                        <td><span class="stock-status in-stock">In Stock</span></td>
+                        <td class="price">$115.000</td>
+                        <td>
+                            <div class="quantity-control">
+                                <button class="quantity-btn">-</button>
+                                <span class="quantity-display">0</span>
+                                <button class="quantity-btn">+</button>
+                            </div>
+                        </td>
+                        <td>
+                            <button class="action-btn">🛒</button>
+                        </td>
+                        <td>
+                            <button class="action-btn view-btn">👁</button>
+                        </td>
+                        <td class="sku">112</td>
+                        <td>
+                            <div class="rating">
+                                <span>5</span>
+                                <span class="star">⭐</span>
+                            </div>
+                        </td>
+                        <td>
+                            <button class="action-btn wishlist-btn">❤</button>
+                            <button class="action-btn">⚖</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="pagination">
+            <button>◀</button>
+            <span>Load more</span>
+            <button>▶</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
